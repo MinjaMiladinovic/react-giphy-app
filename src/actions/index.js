@@ -4,7 +4,6 @@ export const FETCH_GIF = 'FETCH_GIF'
 
 const API_KEY = 'ggYrHfBJkzUQZt7gchlKVQgFruYItIjm';
 const URL = `http://api.giphy.com/v1/gifs/trending?api_key=${API_KEY}&limit=24`;
-// const URL = `http://api.giphy.com/v1/gifs/search?q=cat&api_key=${API_KEY}&limit=5`
 export function fetchGif() {
   const request = axios.get(URL);
   console.log('from action ', request);
