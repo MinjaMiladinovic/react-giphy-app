@@ -13,7 +13,7 @@ class SearchGiphy extends Component {
     };
   };
 
-  handleChange = (e) => {
+  handleChange = (e,a,b,c,d) => {
     this.setState({
       search: e.target.value
     });
